@@ -1,9 +1,9 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://example.github.io
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+title: Andrew Yi Jiang
+email: mail@andrewjiang.me
+url: https://Jiangyi.github.io
+description: "Developer and undergraduate Student at the University of Waterloo, majoring in Honours Computer Engineering - Co-op."
+skills: "Open source Developer - Device Maintainer - PC Enthusiast"
 meta_author: LastName FirstName
 
 # Google webmaster tools
@@ -38,16 +38,10 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: google-plus
+    url: https://plus.google.com/+AndrewJiang
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/Jiangyi
 
 # Postal address (add as many lines as necessary)
 address:
