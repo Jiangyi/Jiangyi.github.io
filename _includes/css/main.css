@@ -189,7 +189,7 @@ section h2 {
 #portfolio {
     color: #fff;
     background: #{{ site.color.primary }};
-    box-shadow: 0px 0px 5px 5px #{{ site.color.secondary-dark }};
+    box-shadow: 0px 0px 5px #{{ site.color.secondary-dark }};
 }
 
 @media(max-width:767px) {
