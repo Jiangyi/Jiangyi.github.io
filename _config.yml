@@ -1,5 +1,5 @@
 # Site settings
-title: Andrew Yi Jiang
+title: Andrew Jiang
 email: mail@andrewjiang.me
 url: https://Jiangyi.github.io
 description: "Developer and undergraduate Student at the University of Waterloo, majoring in Honours Computer Engineering - Co-op."
@@ -43,11 +43,6 @@ social:
     url: https://plus.google.com/+AndrewJiang
   - title: github
     url: http://github.com/Jiangyi
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Somewhere Over the Rainbow
-  - line: Beverly Hills, CA 90210
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
