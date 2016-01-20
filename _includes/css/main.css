@@ -277,22 +277,23 @@ section h2 {
     background: #fff;
 }
 
-.resume-btn-outline {
+.primary-btn-outline {
     margin-top: 15px;
+    box-shadow: 0px 0px 5px #{{ site.color.secondary-dark }};
     border: solid 2px #{{ site.color.primary }};
     font-size: 20px;
-    color: #{{ site.color.primary }};
-    background: 0 0;
+    color: #fff;
+    background: #{{ site.color.primary }};
     transition: all .3s ease-in-out;
 }
 
-.resume-btn-outline:hover,
-.resume-btn-outline:focus,
-.resume-btn-outline:active,
-.resume-btn-outline.active {
+.primary-btn-outline:hover,
+.primary-btn-outline:focus,
+.primary-btn-outline:active,
+.primary-btn-outline.active {
     border: solid 2px #{{ site.color.primary }};
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.primary }};
+    background: #fff;
 }
 
 .floating-label-form-group {
@@ -410,8 +411,9 @@ footer .footer-links {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    font-size: 20px;
-    line-height: 28px;
+    box-shadow: 0px 0px 10px #{{ site.color.secondary-dark }};
+    font-size: 19px;
+    line-height: 25px;
 }
 
 .scroll-top .btn:focus {
