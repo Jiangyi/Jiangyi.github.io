@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>ACC Electronics - QayumCoins</title>
+<style>
+
+body
+{
+-webkit-animation:bgshift 5s; /* Chrome, Safari, Opera */
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+}
+
+div
+{
+-webkit-animation:fly 5s, effects 3s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+p
+{
+-webkit-animation:texteffects 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+	position:fixed;
+	top:35%;
+	left:35%;
+}
+
+@-webkit-keyframes bgshift
+{
+0%   {background: red;}
+20%  {background: yellow;}
+40%  {background: white;}
+60% {background: blue;}
+80% {background: green;}
+100% {background: black;}
+}
+
+@-webkit-keyframes fly
+{
+0%   {left:5%; top:15%}
+25%  {left:85%; top:15%;}
+50%  {left:85%; top:85%;}
+75%  {left:5%; top:85%;}
+100% {left:5%; top:15%;}
+}
+
+@-webkit-keyframes effects
+{
+from {-webkit-transform: rotate(0deg) scale(0.25,0.25);}
+to {-webkit-transform: rotate(360deg) scale(1.5,1.5);}
+}
+
+@-webkit-keyframes texteffects
+{
+from {font-size:200%; color:black;}
+to {font-size:500%; color:white;}
+}
+</style>
+</head>
+
+<body>
+	<div class="image"><img src="img/throwback/QayumCoin.png" alt="QayumCoin"/></div>
+	<p><b>THE BEST COIN IN HISTORY!!!</b></p>
+	<audio autoplay loop><source src="img/throwback/QayumCoin.mp3" type="audio/mpeg"></audio>
+</body>
+
+</html>
