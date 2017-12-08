@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>UW Electronics - HarderCoins</title>
+<style>
+
+body
+{
+ /* Chrome, Safari, Opera */
+-webkit-animation:bgshift 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+ /* Standard */
+animation:bgshift 5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+animation-play-state:running;
+}
+
+div
+{
+ /* Chrome, Safari, Opera */
+-webkit-animation:fly 5s, effects 3s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+ /* Standard */
+animation:fly 5s, effects 3s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+animation-play-state:running;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+p
+{
+ /* Chrome, Safari, Opera */
+-webkit-animation:texteffects 5s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;
+
+ /* Standard */
+animation:texteffects 5s;
+animation-iteration-count: infinite;
+animation-direction:alternate;
+animation-play-state:running;
+
+	position:fixed;
+	top:35%;
+	left:35%;
+}
+
+ /* Chrome, Safari, Opera */
+@-webkit-keyframes bgshift
+{
+0%   {background: red;}
+20%  {background: yellow;}
+40%  {background: white;}
+60% {background: blue;}
+80% {background: green;}
+100% {background: black;}
+}
+
+@-webkit-keyframes fly
+{
+0%   {left:5%; top:15%}
+25%  {left:85%; top:15%;}
+50%  {left:85%; top:85%;}
+75%  {left:5%; top:85%;}
+100% {left:5%; top:15%;}
+}
+
+@-webkit-keyframes effects
+{
+from {-webkit-transform: rotate(0deg) scale(0.25,0.25);}
+to {-webkit-transform: rotate(360deg) scale(1.5,1.5);}
+}
+
+@-webkit-keyframes texteffects
+{
+from {font-size:200%; color:black;}
+to {font-size:500%; color:white;}
+}
+
+ /* Standard */
+@keyframes bgshift
+{
+0%   {background: red;}
+20%  {background: yellow;}
+40%  {background: white;}
+60% {background: blue;}
+80% {background: green;}
+100% {background: black;}
+}
+
+@keyframes fly
+{
+0%   {left:5%; top:15%}
+25%  {left:85%; top:15%;}
+50%  {left:85%; top:85%;}
+75%  {left:5%; top:85%;}
+100% {left:5%; top:15%;}
+}
+
+@keyframes effects
+{
+from {transform: rotate(0deg) scale(0.25,0.25);}
+to {transform: rotate(360deg) scale(1.5,1.5);}
+}
+
+@keyframes texteffects
+{
+from {font-size:200%; color:black;}
+to {font-size:500%; color:white;}
+}
+</style>
+</head>
+
+<body>
+	<div class="image">
+	<img id="coin" src="img/HarderCoin.png" alt="HarderCoin"/></div>
+	<p><b>THE BEST COIN IN UW HISTORY!!!</b></p> 
+	<audio autoplay loop><source src="img/HarderCoin.mp3" type="audio/mpeg"></audio>
+	
+	
+	<script>
+	if (Math.random() >= 0.5) {
+		document.getElementById("coin").src="img/HarderTurbanCoin.png";
+	}
+	</script>
+</body>
+
+
+</html>
